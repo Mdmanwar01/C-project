@@ -15,14 +15,14 @@ int main()
 	char playername[20];
 	mainhome:
 	system("cls");
-	printf("\n\t\t C programe Quiz game...");
+	printf("\n\t\t  WELCOME to C programe Quiz game...");
 	printf("\n\t\t created by md. manwar hossain");
 	printf("\n\t\t > Press S to start the game");
 	printf("\n\t\t > Press V to view the highest score  ");
 	printf("\n\t\t > Press R to reset score");
 	printf("\n\t\t > press H for help            ");
 	printf("\n\t\t > press Q to quit             ");
-	printf("\n\t\t________________________________________\n\n");
+	printf("\n\t\t__________________________\n\n");
 	choice=toupper(getch());
 	if (choice=='V')
 	{
@@ -50,7 +50,7 @@ int main()
 		gets(playername);
 
 		system("cls");
-		printf("\n ------------------  Welcome %s to C Program Quiz Game --------------------------", playername);
+		printf("\n ------------------  Welcome %s to C Program Quiz Game -----------------------", playername);
 		printf("\n\n Here are some tips you might wanna know before playing:");
 		printf("\n -------------------------------------------------------------------------");
 		printf("\n >> There are 2 rounds in this Quiz Game,WARMUP ROUND & CHALLANGE ROUND");
