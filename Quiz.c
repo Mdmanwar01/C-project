@@ -131,7 +131,7 @@ int main()
 				}
 				else
 				{
-					printf("\n\nWrong!!! The correct answer is B.Hyena");
+					printf("\n\nSadly Wrong!!! The correct answer is B.Hyena");
 					getch();
 					break;
 				}
@@ -193,7 +193,7 @@ int main()
 		else
 		{
 			system("cls");
-			printf("\n\nSORRY YOU ARE NOT ELIGIBLE TO PLAY THIS GAME, BETTER LUCK NEXT TIME");
+			printf("\n\nSORRY !! YOU ARE NOT ELIGIBLE TO PLAY THIS GAME, BETTER LUCK NEXT TIME");
 			getch();
 			goto mainhome;
 		}
@@ -565,7 +565,7 @@ int main()
 		else
 		{
 			printf("\n\n\t******** SORRY YOU DIDN'T WIN ANY CASH ********");
-			printf("\n\t\t Thanks for your participation");
+			printf("\n\t\t Very thanks for your participation");
 			printf("\n\t\t TRY AGAIN");goto go;
 		}
 
